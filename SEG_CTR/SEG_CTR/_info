@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/saxfield/Documents/VHDL/SEG_CTR
+Ejk_ff
+Z1 w1625108592
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+Z6 F/home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+l0
+L7
+V7OB1E^::mhV0Fgd39CD@]3
+!s100 l6WCgnY9@F3YkhkbKMke@2
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1625195542
+!i10b 1
+Z9 !s108 1625195542.000000
+Z10 !s90 -reportprogress|300|-work|SEG_CTR|-2008|-explicit|-stats=none|/home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd|
+Z11 !s107 /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd|
+!i113 1
+Z12 o-work SEG_CTR -2008 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 5 jk_ff 0 22 7OB1E^::mhV0Fgd39CD@]3
+l21
+L18
+V?bh0_LiSZzLLKL8c_W4jH1
+!s100 kF>ndlZ9bVKOK5LnAIo212
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esyn_ctr
+Z14 w1625193509
+R2
+R3
+R4
+R0
+Z15 8/home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+Z16 F/home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+l0
+L11
+V7KMlP>7lFnh@l4l=P8EUj1
+!s100 l^jI2jUQ?FPHWnX^hZAS;2
+R7
+33
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|SEG_CTR|-2008|-explicit|-stats=none|/home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd|
+Z18 !s107 /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z19 DEx4 work 7 syn_ctr 0 22 7KMlP>7lFnh@l4l=P8EUj1
+l42
+L24
+Z20 VGPco<SHBj7BjUPQc;R:PB2
+Z21 !s100 ElkSR1LWo[X1C=Cz1WgX12
+R7
+33
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13

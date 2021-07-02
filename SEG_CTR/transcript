@@ -1,0 +1,641 @@
+# Loading project SEG_CTR
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity JK_FF
+# -- Compiling architecture rtl of JK_FF
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading entity JK_FF
+# -- Compiling entity JK_FF
+# -- Compiling architecture sim of JK_FF_TB
+# -- Loading entity JK_FF_TB
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SYN_CTR
+# -- Compiling architecture rtl of SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(42): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(43): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(43): (vcom-1025) Formal "i_jk" has already been associated (in whole) at line 42.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(45): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(42): (vcom-1484) Unknown formal identifier "i_jk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(43): (vcom-1484) Unknown formal identifier "i_jk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(45): (vcom-1484) Unknown formal identifier "o_ZA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(52): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(53): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(53): (vcom-1025) Formal "QA" has already been associated (in whole) at line 52.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(52): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(53): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1484) Unknown formal identifier "o_ZB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(62): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(63): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(63): (vcom-1025) Formal "QB" has already been associated (in whole) at line 62.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(64): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(62): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(63): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(64): (vcom-1484) Unknown formal identifier "o_ZC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(71): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(72): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(72): (vcom-1025) Formal "QC" has already been associated (in whole) at line 71.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(73): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(71): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(72): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(73): (vcom-1484) Unknown formal identifier "o_ZD".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): VHDL Compiler exiting
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(10): (vcom-1598) Library "syn_ctr" not found.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(12): VHDL Compiler exiting
+# 
+# 
+# 4 compiles, 2 failed with 31 errors.
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# ** Error: (vcom-11) Could not find work.syn_ctr.
+# ** Error (suppressible): /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(27): (vcom-1195) Cannot find expanded name "work.SYN_CTR".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(32): near ")": syntax error
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(34): Statement cannot be labeled.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity JK_FF
+# -- Compiling architecture rtl of JK_FF
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading entity JK_FF
+# -- Compiling entity JK_FF
+# -- Compiling architecture sim of JK_FF_TB
+# -- Loading entity JK_FF_TB
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SYN_CTR
+# -- Compiling architecture rtl of SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(42): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(43): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(43): (vcom-1025) Formal "i_jk" has already been associated (in whole) at line 42.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(45): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(42): (vcom-1484) Unknown formal identifier "i_jk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(43): (vcom-1484) Unknown formal identifier "i_jk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(45): (vcom-1484) Unknown formal identifier "o_ZA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(52): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(53): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(53): (vcom-1025) Formal "QA" has already been associated (in whole) at line 52.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(52): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(53): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1484) Unknown formal identifier "o_ZB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(62): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(63): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(63): (vcom-1025) Formal "QB" has already been associated (in whole) at line 62.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(64): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(62): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(63): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(64): (vcom-1484) Unknown formal identifier "o_ZC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(71): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(72): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(72): (vcom-1025) Formal "QC" has already been associated (in whole) at line 71.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(73): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(71): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(72): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(73): (vcom-1484) Unknown formal identifier "o_ZD".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): VHDL Compiler exiting
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# ** Error: (vcom-11) Could not find work.syn_ctr.
+# ** Error (suppressible): /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(27): (vcom-1195) Cannot find expanded name "work.SYN_CTR".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(27): Unknown expanded name.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# 4 compiles, 2 failed with 33 errors.
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# -- Loading entity SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(29): (vcom-1484) Unknown formal identifier "clk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(30): (vcom-1484) Unknown formal identifier "rst".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity JK_FF
+# -- Compiling architecture rtl of JK_FF
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading entity JK_FF
+# -- Compiling entity JK_FF
+# -- Compiling architecture sim of JK_FF_TB
+# -- Loading entity JK_FF_TB
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SYN_CTR
+# -- Compiling architecture rtl of SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(40): (vcom-1136) Unknown identifier "SEG_CTR".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(52): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(53): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(53): (vcom-1025) Formal "QA" has already been associated (in whole) at line 52.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(52): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(53): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1484) Unknown formal identifier "o_ZB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(62): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(63): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(63): (vcom-1025) Formal "QB" has already been associated (in whole) at line 62.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(64): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(62): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(63): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(64): (vcom-1484) Unknown formal identifier "o_ZC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(71): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(72): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(72): (vcom-1025) Formal "QC" has already been associated (in whole) at line 71.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(73): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(71): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(72): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(73): (vcom-1484) Unknown formal identifier "o_ZD".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): VHDL Compiler exiting
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# -- Loading entity SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(29): (vcom-1484) Unknown formal identifier "clk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(30): (vcom-1484) Unknown formal identifier "rst".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# 4 compiles, 2 failed with 26 errors.
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# -- Loading entity SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(29): (vcom-1484) Unknown formal identifier "clk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(30): (vcom-1484) Unknown formal identifier "rst".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity JK_FF
+# -- Compiling architecture rtl of JK_FF
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading entity JK_FF
+# -- Compiling entity JK_FF
+# -- Compiling architecture sim of JK_FF_TB
+# -- Loading entity JK_FF_TB
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(9): (vcom-1598) Library "jk_ff" not found.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(11): VHDL Compiler exiting
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# -- Loading entity SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(29): (vcom-1484) Unknown formal identifier "clk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(30): (vcom-1484) Unknown formal identifier "rst".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# 4 compiles, 2 failed with 5 errors.
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity JK_FF
+# -- Compiling architecture rtl of JK_FF
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading entity JK_FF
+# -- Compiling entity JK_FF
+# -- Compiling architecture sim of JK_FF_TB
+# -- Loading entity JK_FF_TB
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SYN_CTR
+# -- Compiling architecture rtl of SYN_CTR
+# -- Loading entity JK_FF
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(45): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(46): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(46): (vcom-1025) Formal "i_jk" has already been associated (in whole) at line 45.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(48): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(45): (vcom-1484) Unknown formal identifier "i_jk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(46): (vcom-1484) Unknown formal identifier "i_jk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(48): (vcom-1484) Unknown formal identifier "o_ZA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(56): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(56): (vcom-1025) Formal "QA" has already been associated (in whole) at line 55.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(58): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(56): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(58): (vcom-1484) Unknown formal identifier "o_ZB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(65): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(66): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(66): (vcom-1025) Formal "QB" has already been associated (in whole) at line 65.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(67): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(65): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(66): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(67): (vcom-1484) Unknown formal identifier "o_ZC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(74): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): (vcom-1025) Formal "QC" has already been associated (in whole) at line 74.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(76): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(74): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(76): (vcom-1484) Unknown formal identifier "o_ZD".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(78): VHDL Compiler exiting
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# -- Loading entity SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(29): (vcom-1484) Unknown formal identifier "clk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(30): (vcom-1484) Unknown formal identifier "rst".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# 4 compiles, 2 failed with 32 errors.
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity JK_FF
+# -- Compiling architecture rtl of JK_FF
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading entity JK_FF
+# -- Compiling entity JK_FF
+# -- Compiling architecture sim of JK_FF_TB
+# -- Loading entity JK_FF_TB
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SYN_CTR
+# -- Compiling architecture rtl of SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(48): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(48): (vcom-1484) Unknown formal identifier "o_ZA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(56): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(56): (vcom-1025) Formal "QA" has already been associated (in whole) at line 55.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(58): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(56): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(58): (vcom-1484) Unknown formal identifier "o_ZB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(65): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(66): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(66): (vcom-1025) Formal "QB" has already been associated (in whole) at line 65.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(67): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(65): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(66): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(67): (vcom-1484) Unknown formal identifier "o_ZC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(74): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): (vcom-1025) Formal "QC" has already been associated (in whole) at line 74.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(76): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(74): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(76): (vcom-1484) Unknown formal identifier "o_ZD".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(78): VHDL Compiler exiting
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# -- Loading entity SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(29): (vcom-1484) Unknown formal identifier "clk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(30): (vcom-1484) Unknown formal identifier "rst".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# 4 compiles, 2 failed with 27 errors.
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity JK_FF
+# -- Compiling architecture rtl of JK_FF
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading entity JK_FF
+# -- Compiling entity JK_FF
+# -- Compiling architecture sim of JK_FF_TB
+# -- Loading entity JK_FF_TB
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SYN_CTR
+# -- Compiling architecture rtl of SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(56): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(56): (vcom-1025) Formal "QA" has already been associated (in whole) at line 55.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(58): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(55): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(56): (vcom-1484) Unknown formal identifier "QA".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(58): (vcom-1484) Unknown formal identifier "o_ZB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(65): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(66): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(66): (vcom-1025) Formal "QB" has already been associated (in whole) at line 65.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(67): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(65): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(66): (vcom-1484) Unknown formal identifier "QB".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(67): (vcom-1484) Unknown formal identifier "o_ZC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(74): (vcom-1136) Unknown identifier "i_j".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): (vcom-1136) Unknown identifier "i_k".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): (vcom-1025) Formal "QC" has already been associated (in whole) at line 74.
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(76): (vcom-1136) Unknown identifier "o_Q".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(74): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(75): (vcom-1484) Unknown formal identifier "QC".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(76): (vcom-1484) Unknown formal identifier "o_ZD".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd(78): VHDL Compiler exiting
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# -- Loading entity SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(29): (vcom-1484) Unknown formal identifier "clk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(30): (vcom-1484) Unknown formal identifier "rst".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# 4 compiles, 2 failed with 25 errors.
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity JK_FF
+# -- Compiling architecture rtl of JK_FF
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading entity JK_FF
+# -- Compiling entity JK_FF
+# -- Compiling architecture sim of JK_FF_TB
+# -- Loading entity JK_FF_TB
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SYN_CTR
+# -- Compiling architecture rtl of SYN_CTR
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# -- Loading entity SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(29): (vcom-1484) Unknown formal identifier "clk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(30): (vcom-1484) Unknown formal identifier "rst".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# 4 compiles, 1 failed with 3 errors.
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity JK_FF
+# -- Compiling architecture rtl of JK_FF
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading entity JK_FF
+# -- Compiling entity JK_FF
+# -- Compiling architecture sim of JK_FF_TB
+# -- Loading entity JK_FF_TB
+# 
+# 
+# vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SYN_CTR
+# -- Compiling architecture rtl of SYN_CTR
+# 
+# 
+# vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity SYN_CTR_tb
+# -- Compiling architecture sim of SYN_CTR_tb
+# -- Loading entity SYN_CTR
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(29): (vcom-1484) Unknown formal identifier "clk".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(30): (vcom-1484) Unknown formal identifier "rst".
+# ** Error: /home/saxfield/Documents/VHDL/SEG_CTR/SYN_CTR/SYN_CTR_TB.vhd(48): VHDL Compiler exiting
+# 
+# 
+# 4 compiles, 1 failed with 3 errors.

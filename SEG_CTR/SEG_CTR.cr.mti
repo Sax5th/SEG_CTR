@@ -1,0 +1,22 @@
+/home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd {1 {vcom -work SEG_CTR -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity JK_FF
+-- Compiling architecture rtl of JK_FF
+
+} {} {}} /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd {1 {vcom -work SEG_CTR_SIM -2008 -explicit -stats=none /home/saxfield/Documents/VHDL/SEG_CTR/JK_FF/JK_FF_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package ENV
+-- Loading entity JK_FF
+-- Compiling entity JK_FF
+-- Compiling architecture sim of JK_FF_TB
+-- Loading entity JK_FF_TB
+
+} {} {}}
